@@ -1,62 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>piggyvest</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <img src="https://dashboard.piggyvest.com/static/media/piggyvest-logo.0b78a8fa.svg" alt="piggyvest_logo" class="logo">
-        </header>
-        <form action="", method="GET" id="main">
-            <h1 class="title">Create a Secure Account</h1>
-            <p class="welcome">Welcome to the future of Savings & Investments</p>
-            <div>
-                <label for="name">Name</label><br>
-                <input type="text" name="name" id="name" placeholder="Full Name">
-            </div>
-            <br>
-            <div>
-                <label for="email">Email Address</label><br>
-                <input type="email" name="email" id="email" placeholder="Email Address">
-            </div>
-            <br>
-            <div>
-                <label for="phone_number">Phone Number</label><br>
-                <input type="tel" name="phone_number" id="phone_number" placeholder="Phone Number">
-            </div>
-            <br>
-            <div>
-                <label for="password">Password</label><br>
-                <input type="password" name="password" id="password" placeholder="Password">
-            </div>
-            <br>
-            <div>
-                <label for="refer_phone_number">Referrer Phone or Promo Code (Optional)</label><br>
-                <input type="tel" name="refer_phone_number" id="refer_phone_number" placeholder="Referral Phone or Code">
-            </div>
-            <br>
-            <div id="select">
-                <label>How Did You Hear About Us? (Optional) </label><br>
-                <select>
-                    <option value="select">Click to Select</option>
-                    <option value="facebook">Facebook</option>
-                    <option value="twitter">Twitter</option>
-                    <option value="instagram">Instagram</option>
-                    <option value="referral">Friend/Family/Coworker Referral</option>
-                    <option value="google_search">Google Search</option>
-                    <option value="google_playstore">Google Playstore</option>
-                    <option value="online_blog">Online Blog</option>
-                    <option value="local_newspaper">Local Newspaper</option>
-                    <option value="event">At An Event</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
-            <br>
-            <div id="submit">
-                <input type="submit" value="CREATE ACCOUNT">
-            </div>
-        </form>
-        <h5 class="footer">Already have an account? Log in</h5>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piggy Vest Tag</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="corner-images">
+            <img class="top-left" src="./Image4.jpg" alt="top left image">
+            <img class="top-right" src="./Image3.jpg" alt="top right image">
+            <img class="bottom-left" src="./Image2.jpg" alt="bottom left image">
+            <img class="bottom-right" src="./Image1.jpg" alt="bottom right image">
+        </section>
+
+        <section class="logo">
+            <img src="logo.png" alt="logo">
+        </section>
+
+        <section class="form">
+            <form>
+                <div class="heading">
+                    <h1>Create a Secure Account</h1>
+                    <p>welcome to the future of savings and investments</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="fullname" name="fullname" placeholder="Full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="phonenumber" name="phonenumber" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="********">
+                </div>
+                <div class="form-group">
+                    <label for="referrer">Referrer Phone or Promo code</label>
+                    <input type="referrer" name="referrer" placeholder="Referrer Phone or Promo code">
+                </div>
+                <div class="form-group">
+                    <label for="hear_about_us">How Did You Hear About Us? (Optional)</label>
+                    <select name="hear_about_us" id="" value="0">
+    <option value="click_to_select">Click to Select</option>
+    <option value="twitter">Twitter</option>
+    <option value="facebook">Facebook</option>
+    <option value="instagram">Instagram</option>
+    <option value="google_play">Google Play</option>   
+   </select>
+                </div>
+                <section class="submit">
+                    <button>Create Account</button>
+
+                </section>
+            </form>
+            <p><a href="#">Already have an account? Log In</a></p>
+        </section>
+    </main>
+</body>
+
 </html>
